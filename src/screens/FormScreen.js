@@ -205,12 +205,12 @@ export default function FormScreen() {
               selectedValue={respostas[campo.id] || ''}
               onValueChange={valor => handleChange(campo.id, valor)}
               style={{
-                color: '#000', // texto preto
-                backgroundColor: '#fff', // fundo branco
-                borderWidth: 1, // borda (opcional para ficar mais bonito)
-                borderColor: '#ccc', // cor da borda
-                borderRadius: 6, // bordas arredondadas
-                marginBottom: 12, // espaço abaixo
+                color: '#0000000',
+                backgroundColor: '#fffffff', // fundo branco
+                borderWidth: 1,
+                borderColor: '#ccc',
+                borderRadius: 6,
+                marginBottom: 12,
               }}>
               <Picker.Item label="Selecione..." value="" color="#000" />
               {campo.opcoes.map(op => (
