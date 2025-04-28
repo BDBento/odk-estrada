@@ -106,18 +106,6 @@ export default function FormListScreen() {
             destino_est_final: respostaObj.respostas.destino_est_final,
             material: respostaObj.respostas.material,
             observacao: respostaObj.respostas.observacao,
-            qtd_viagens: respostaObj.respostas.qtd_viagens,
-            carga: respostaObj.respostas.carga,
-            volume_aterro: respostaObj.respostas.volume_aterro,
-            bota_fora: respostaObj.respostas.bota_fora,
-            volume_corte: respostaObj.respostas.volume_corte,
-            volume_sub_base: respostaObj.respostas.volume_sub_base,
-            volume_base: respostaObj.respostas.volume_base,
-            volume_transportado: respostaObj.respostas.volume_transportado,
-            dt_real_km: respostaObj.respostas.dt_real_km,
-            dt_min_km: respostaObj.respostas.dt_min_km,
-            valor_unitario: respostaObj.respostas.valor_unitario,
-            valor_total: respostaObj.respostas.valor_total
           })
         });
 

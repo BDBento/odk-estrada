@@ -89,18 +89,7 @@ export default function TelaPendentes() {
             destino_est_final: item.data.respostas.destino_est_final,
             material: item.data.respostas.material,
             observacao: item.data.respostas.observacao,
-            qtd_viagens: item.data.respostas.qtd_viagens,
-            carga: item.data.respostas.carga,
-            volume_aterro: item.data.respostas.volume_aterro,
-            bota_fora: item.data.respostas.bota_fora,
-            volume_corte: item.data.respostas.volume_corte,
-            volume_sub_base: item.data.respostas.volume_sub_base,
-            volume_base: item.data.respostas.volume_base,
-            volume_transportado: item.data.respostas.volume_transportado,
-            dt_real_km: item.data.respostas.dt_real_km,
-            dt_min_km: item.data.respostas.dt_min_km,
-            valor_unitario: item.data.respostas.valor_unitario,
-            valor_total: item.data.respostas.valor_total
+            
           })
         });
 

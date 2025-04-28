@@ -79,66 +79,6 @@ const formularioProducao = {
       label: "Observação",
       tipo: "selecao",
       opcoes: ["1 CFT", "2 CFT", "3 CFT", "BOTA DENTRO"]
-    },
-    {
-      id: "qtd_viagens",
-      label: "Qtd. Viagens",
-      tipo: "numero"
-    },
-    {
-      id: "carga",
-      label: "Carga",
-      tipo: "texto"
-    },
-    {
-      id: "volume_aterro",
-      label: "Volume Aterro",
-      tipo: "numero"
-    },
-    {
-      id: "bota_fora",
-      label: "V. Bota Fora",
-      tipo: "numero"
-    },
-    {
-      id: "volume_corte",
-      label: "Volume Corte",
-      tipo: "numero"
-    },
-    {
-      id: "volume_sub_base",
-      label: "Volume Sub-base",
-      tipo: "numero"
-    },
-    {
-      id: "volume_base",
-      label: "Volume Base",
-      tipo: "numero"
-    },
-    {
-      id: "volume_transportado",
-      label: "Volume Transportado",
-      tipo: "numero"
-    },
-    {
-      id: "dt_real_km",
-      label: "DT Real (Km)",
-      tipo: "numero"
-    },
-    {
-      id: "dt_min_km",
-      label: "DT Mínimo (Km)",
-      tipo: "numero"
-    },
-    {
-      id: "valor_unitario",
-      label: "Valor Unitário",
-      tipo: "numero"
-    },
-    {
-      id: "valor_total",
-      label: "Valor Total",
-      tipo: "numero"
     }
   ]
 };
